@@ -30,7 +30,7 @@ This tool performs **Gene Expression Clustering** to group patients based on mol
     git clone [https://github.com/SaviruDesilva/genomic-subtype-discovery.git](https://github.com/SaviruDesilva/genomic-subtype-discovery.git)
     cd genomic-subtype-discovery
     ```
-    *(Note: Update the repo name in the command above if it is different on GitHub)*
+    *(Note: If your repository name is different, update the link above)*
 
 2.  **Install dependencies:**
     ```bash
@@ -39,12 +39,12 @@ This tool performs **Gene Expression Clustering** to group patients based on mol
 
 3.  **Run the app:**
     ```bash
-    streamlit run app.py
+    streamlit run genomic.py
     ```
 
 ## 📂 Project Structure
 ```text
 ├── data.csv             # Example genomic dataset
-├── app.py               # Main application code
+├── genomic.py           # Main application code
 ├── requirements.txt     # List of Python libraries
 └── README.md            # Project documentation
